@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
 COPY . /app/
 
-#CMD bash -c "while true; do sleep 1; done"
-CMD ['uvicorn', 'main:app', '--host', '0.0.0.0', '--port', '80']
+CMD bash -c "while true; do sleep 1; done"
 
 
