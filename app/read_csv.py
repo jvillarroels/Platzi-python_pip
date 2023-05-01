@@ -6,6 +6,7 @@ def read_csv(path):
 
         header = next(reader)
         data = []
+
         # print(header)
         # Esto imprime todo el archivo CSV
         # for row in reader:
@@ -29,7 +30,7 @@ if __name__ == '__main__':
 '''
 FALTA EL RETO DE LA LECCION 38
 Lee un CSV para calcular el total de gastos
-
+--
 '''
     
 
